@@ -40,7 +40,10 @@ Don't forget to change the microstepping jumper from 1/16 to 1/32 (or halve the 
 Thoughts:
 
 I'm not entirely sure about the stepper current. My settings are relatively low, but the drivers do heat up quite a bit. May need additional cooling, especially with the board mounted under the bed.
+
 Wired networking seems to crash the board during prints. Use a raspberry pi with Octoprint instead, it's much faster and better.
+
+Autolevel with the display: untested, and still need to add something to manually set the Z0 position as specified in the Smoothieware documentation.
 
 
 Useful links:

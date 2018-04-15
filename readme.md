@@ -45,6 +45,8 @@ Wired networking seems to crash the board during prints. Use a raspberry pi with
 
 Autolevel with the display: untested, and still need to add something to manually set the Z0 position as specified in the Smoothieware documentation.
 
+The board uses DRV8825 stepper drivers which may emit pulses that are too short, causing artifacts/print abberations. Look into the TL-smoother or "drv8825 diode hack" for more info (it's a 13$ upgrade).
+
 
 Useful links:
 

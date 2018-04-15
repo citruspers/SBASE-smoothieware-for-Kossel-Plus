@@ -5,24 +5,35 @@ Flash the included TFT firmware to the touchscreen (if you have it) and use my c
 SBASE:
 
 config - this is the main config file
+
 config-override - overrides settings used for autolevel. You probably don't need this
+
 delta.grid - specific autolevel grid information generated for my machine. You really don't need this.
 
 TFT:
 mkstft28.bin - Makerbase's firmware for the TFT32 screen (seems like 28 -32 are identical in terms of firmware)
+
 mks_config - my config for the TFT screen
+
 mks_pic - picture resource files to be used with the 
 
 
 My wiring:
 
 Pretty standard. 
+
 Heater1 is the hotend
+
 Heater2 is the hotend cooling fan (turns on at 50c)
+
 Fan0 is the layer fan
+
 Thermistor1 is the bed
+
 Thermistor2 is the hotend
+
 Z-prope is wired to Z- endstop
+
 
 Don't forget to change the microstepping jumper from 1/16 to 1/32 (or halve the steps/mm in the config files).
 

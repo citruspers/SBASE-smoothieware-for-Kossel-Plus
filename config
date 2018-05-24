@@ -294,7 +294,7 @@ leveling-strategy.delta-grid.radius          114             # Grid radius in mi
 leveling-strategy.delta-grid.size            7               # Grid size, must be an odd number
 leveling-strategy.delta-grid.do_home         true            # Whether to home before calibration
 leveling-strategy.delta-grid.save            true            # Whether to automatically save the grid
-leveling-strategy.delta-grid.initial_height  10              # Height at which to start probling
+leveling-strategy.delta-grid.initial_height  25              # Height at which to start probling
 
 ## Panel
 # See http://smoothieware.org/panel

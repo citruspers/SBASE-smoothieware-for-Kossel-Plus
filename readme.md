@@ -10,6 +10,8 @@ config-override - overrides settings used for autolevel. You probably don't need
 
 delta.grid - specific autolevel grid information generated for my machine. You really don't need this.
 
+firmware.bin - firmware from 03/16/2018. Works for me.
+
 TFT:
 mkstft28.bin - Makerbase's firmware for the TFT32 screen (seems like 28 -32 are identical in terms of firmware)
 
